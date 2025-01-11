@@ -1,0 +1,95 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+    color: black;
+}
+
+.navbar{
+    background-color: cadetblue;
+    height: 4rem;
+    border-bottom: 2px solid black;
+}
+
+.nav-title{
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: 550;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    background-color: cadetblue;
+    color: white;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: -10;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content{
+    margin-top: 11rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.text{
+    margin: 0.5rem;
+    font-size: large;
+}
+
+span{
+    color: cadetblue;
+    font-weight: 700;
+}
+
+.qr-container{
+    margin-top: 8rem;
+    border: 2px solid black;
+    border-radius: 0.8rem;
+    height: 10rem;
+    width: 10rem;
+    padding: 0.5rem;
+    background-color: cadetblue;
+    position: relative;
+}
+
+.qr-img{
+    height: 92%;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+}
+
+.footer-container{
+    position: absolute;
+    bottom: 3rem;
+    width: 99%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.version, .author, .contactus{
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.footer-container p {
+    color: white;
+    background-color: cadetblue;
+}
+
+.footer-container a{
+    text-decoration: none;
+    background-color: cadetblue;
+    color: white;
+}
