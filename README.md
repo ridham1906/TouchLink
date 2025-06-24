@@ -47,19 +47,6 @@
 
 ---
 
-## 📂 Project Structure
-
-touchlink/
-├── client-mobile/ # React Native mobile app
-│ └── src/
-├── client-desktop/ # Electron + Vite desktop app
-│ └── src/
-├── server/ # Express + WebSocket server
-│ └── index.js
-├── README.md
-
----
-
 ## 🧑‍💻 Installation & Setup
 
 ### 🔌 1. Clone the Repository
